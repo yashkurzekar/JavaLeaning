@@ -12,7 +12,6 @@ public class kilometerToMiles {
         float miles = kilometer * 0.621371f;
         System.out.println(kilometer+" Kilometers means "+miles);
         System.out.println("Thanks for using our services");
-
     }
 }
 
