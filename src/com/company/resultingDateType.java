@@ -51,6 +51,5 @@ public class resultingDateType {
         System.out.println("Character increment");
         char yash1 = 'a';
         System.out.println("After increment a becomes "+ ++yash1);
-
     }
 }
