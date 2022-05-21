@@ -7,7 +7,8 @@ public class calculatePercentage {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Welcome to your percentage calulator.");
-        System.out.println("Note* we calculate only for 5 subjects ");
+        System.out.println("Enter total subject mark out of");
+        float total = sc.nextFloat()
         System.out.println("Enter Your Subject 1 marks");
         byte a = sc.nextByte();
         System.out.println("Enter Your Subject 2 marks");
