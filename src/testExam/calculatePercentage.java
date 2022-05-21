@@ -5,30 +5,22 @@ import java.util.Scanner;
 
 public class calculatePercentage {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Welcome to your percentage calulator.");
-        System.out.println("Enter total subject mark out of");
-        float total = sc.nextFloat()
-        System.out.println("Enter Your Subject 1 marks");
-        byte a = sc.nextByte();
-        System.out.println("Enter Your Subject 2 marks");
-        byte b = sc.nextByte();
-        System.out.println("Enter Your Subject 3 marks");
-        byte c = sc.nextByte();
-        System.out.println("Enter Your Subject 4 marks");
-        byte d = sc.nextByte();
-        System.out.println("Enter Your Subject 5 marks");
-        byte e = sc.nextByte();
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter your Physics marks : ");
+        int physics = scan.nextInt();
+        System.out.println("Enter your English marks : ");
+        int English = scan.nextInt();
+        System.out.println("Enter your Chemistry marks : ");
+        int chemistry = scan.nextInt();
+        System.out.println("Enter your Mathematics marks : ");
+        int mathematics = scan.nextInt();
+        System.out.println("Enter your Computer Science marks : ");
+        int computer = scan.nextInt();
 
-        int total = a+b+c+d+e;
-        int percentage = ( total*100)/ 500;
-        System.out.println("Subject 1 marks is " +a);
-        System.out.println("Subject 2 marks is "+b);
-        System.out.println("Subject 3 marks is "+c);
-        System.out.println("Subject 4 marks is "+d);
-        System.out.println("Subject 5 marks is "+e);
-        System.out.println("Your total is "+ total);
-        System.out.println("Your Total Percentages is "+percentage);
+        float percentage = ((physics + English + chemistry + mathematics + computer)/500.0f)*100;
+
+        System.out.println("percentage : ");
+        System.out.println(percentage);
 
 
     }
