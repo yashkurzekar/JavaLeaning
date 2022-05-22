@@ -1,5 +1,7 @@
 package testExam;
-
+/*
+Write a java program to encrypt a grade by adding 8 to it. Decrypt it to show the correct grade.
+ */
 public class secreatGradeProblem {
     public static void main(String[] args) {
         System.out.println("what is your grade");
