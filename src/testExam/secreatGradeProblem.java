@@ -5,7 +5,7 @@ Write a java program to encrypt a grade by adding 8 to it. Decrypt it to show th
 public class secreatGradeProblem {
     public static void main(String[] args) {
         System.out.println("what is your grade");
-        char a = 'A';
+        char a = 'B';
         a = (char)(a +8);
         System.out.println(a);
 
