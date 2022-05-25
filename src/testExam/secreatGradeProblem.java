@@ -13,5 +13,6 @@ public class secreatGradeProblem {
         System.out.println("your Grade is ");
         a = (char)(a - 8);
         System.out.println(a);
+        System.out.println("THANK YOU");
     }
 }
