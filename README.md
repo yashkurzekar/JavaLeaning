@@ -1,3 +1,3 @@
 # JavaLeaning
 # JavaLeaning2
-# JavaLeaning3
+# Bad times are good lessons.
