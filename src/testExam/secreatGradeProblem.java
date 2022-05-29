@@ -14,7 +14,5 @@ public class secreatGradeProblem {
         a = (char)(a - 8);
         System.out.println(a);
         System.out.println("THANK YOU");
-        System.out.println("Yash Kurzekar");
-        System.out.println("8888627998");
     }
 }
