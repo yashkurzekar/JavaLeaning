@@ -21,7 +21,7 @@ public class employeeWage {
         System.out.println(id);
         System.out.println(Add);
         System.out.println(company);
-
+        System.out.println("Thank you");
 
     }
 }
