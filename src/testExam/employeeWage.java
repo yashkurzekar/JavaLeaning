@@ -1,5 +1,4 @@
 package testExam;
-import javax.sound.midi.Soundbank;
 import java.util.Scanner;
 
 public class employeeWage {

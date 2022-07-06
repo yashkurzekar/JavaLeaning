@@ -21,9 +21,9 @@ public class literals {
         long number = 55455454554545454L;
         short age2 = 12;
         boolean c = true;
-        String name = "Yash Kurzekar";
+        //String name = "Yash Kurzekar";
 
-        System.out.println(name);
+        //System.out.println(name);
         System.out.println(age);
         System.out.println(a);
         System.out.println(f1);
