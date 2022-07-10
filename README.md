@@ -1,3 +1,1 @@
-# JavaLeaning
-# JavaLeaning2
-# Bad times are good lessons.
+# Java Basic from code with harry 
